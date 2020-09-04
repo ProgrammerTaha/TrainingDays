@@ -37,6 +37,10 @@ const name = 'Nala';
 const event = getRandEvent();
 const days = getTrainingDays(event);
 
+const name2 = 'Warren';
+const event2 = getRandEvent();
+const days2 = getTrainingDays(event2);
+
 const logEvent = (name, event) => {
   console.log(`${name}'s event is: ${event}`);
 };
@@ -47,3 +51,6 @@ const logTime = (name, days) => {
 
 logEvent(name, event);
 logTime(name, days);
+
+logEvent(name2, event2);
+logTime(name2, days2);
