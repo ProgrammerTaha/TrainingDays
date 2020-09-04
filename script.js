@@ -8,9 +8,8 @@ todo: you will make Training Days more maintainable and less error-prone by fixi
 
 */
 
-const random = Math.floor(Math.random() * 3);
-
 const getRandEvent = () => {
+  const random = Math.floor(Math.random() * 3);
   if (random === 0) {
     return 'Marathon';
   } else if (random === 1) {
